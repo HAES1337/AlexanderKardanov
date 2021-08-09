@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suiteForAddSub">
+  <test name="secondTest">
+    <groups>
+      <run>
+        <include name="AddSubOperations"/>
+      </run>
+    </groups>
+  </test>
+  <packages>
+    <package name="tc"/>
+  </packages>
+</suite>
