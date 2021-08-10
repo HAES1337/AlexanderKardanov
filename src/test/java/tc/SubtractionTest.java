@@ -2,30 +2,25 @@ package tc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.epam.tc.Operations;
+import com.epam.tat.module4.Calculator;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import tc.DataProviders;
 
 public class SubtractionTest {
 
-    private Operations operations;
+    BeforeAfter beforeAfter = new BeforeAfter();
 
-    @BeforeMethod(groups = {"AddSubOperations"})
-    public void before() {
-        operations = new Operations();
-    }
+
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Correct data for sub", groups = {"AddSubOperations"})
     public void subTest(double num1, double num2) {
-        double actual = operations.sub(num1, num2);
-        double expected = 0;
+        beforeAfter.before();
+        double actual = beforeAfter.calculator.sub(num1, num2);
+        double expected = 2;
         assertThat(actual).as("Addition was wrong").isEqualTo(expected);
+        beforeAfter.after();
     }
 
-    @AfterMethod(groups = {"AddSubOperations"})
-    public void after() {
-        operations = null;
-    }
+
 }
