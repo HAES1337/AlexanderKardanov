@@ -8,6 +8,6 @@
     </groups>
   </test>
   <packages>
-    <package name="tc"/>
+    <package name="com.epam.tc.hw1"/>
   </packages>
 </suite>

@@ -2,7 +2,7 @@
 <suite name="suiteForAllTests">
   <test name="firstTest">
     <packages>
-      <package name="tc"/>
+      <package name="com.epam.tc.hw1"/>
     </packages>
   </test>
 </suite>

@@ -1,4 +1,4 @@
-package tc;
+package com.epam.tc.hw1;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

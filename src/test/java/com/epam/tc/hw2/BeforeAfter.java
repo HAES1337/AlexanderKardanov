@@ -1,19 +1,20 @@
-package tc;
+package com.epam.tc.hw2;
 
-import com.epam.tat.module4.Calculator;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class BeforeAfter {
-    Calculator calculator;
+    WebDriver webDriver;
 
     @BeforeMethod
     public void before() {
-        calculator = new Calculator();
+        WebDriverManager.chromedriver().setup();
     }
 
     @AfterMethod
     public void after() {
-        calculator = null;
+        webDriver.close();
     }
 }
