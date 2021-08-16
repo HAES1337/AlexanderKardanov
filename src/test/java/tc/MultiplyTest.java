@@ -2,10 +2,9 @@ package tc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 import org.testng.annotations.Test;
 
-public class MultiplyTest extends BeforeAfter{
+public class MultiplyTest extends BeforeAfter {
 
     @Test(dataProviderClass = DataProviders.class,
           dataProvider = "Correct data for multiply",

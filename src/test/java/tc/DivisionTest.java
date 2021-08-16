@@ -2,12 +2,9 @@ package tc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 import org.testng.annotations.Test;
 
-public class DivisionTest extends BeforeAfter{
-
-
+public class DivisionTest extends BeforeAfter {
 
     @Test(dataProviderClass = DataProviders.class,
           dataProvider = "Correct data for div",
@@ -17,6 +14,4 @@ public class DivisionTest extends BeforeAfter{
         double expected = 5;
         assertThat(actual).as("Addition was wrong").isEqualTo(expected);
     }
-
-
 }

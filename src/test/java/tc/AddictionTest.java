@@ -2,11 +2,9 @@ package tc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 import org.testng.annotations.Test;
 
-public class AddictionTest extends BeforeAfter{
-
+public class AddictionTest extends BeforeAfter {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "Correct data for sum", groups = {"AddSubOperations"})
 
