@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class FirstTest extends AbstractBeforeAfter {
+public class LoginPageTest extends AbstractBeforeAfter {
     WebDriverWait webDriverWait;
     SoftAssertions softly = new SoftAssertions();
     static final String EPAM_URL = "https://jdi-testing.github.io/jdi-light/index.html";
