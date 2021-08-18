@@ -14,7 +14,7 @@ public class LoginPageTest extends AbstractBeforeAfter {
     static final String EPAM_URL = "https://jdi-testing.github.io/jdi-light/index.html";
 
     @Test
-    public void firstExTest() {
+    public void LoginCheckTest() {
         webDriverWait = new WebDriverWait(webDriver, 10);
         webDriver.manage().window().maximize();
         webDriver.navigate().to(EPAM_URL);

@@ -1,16 +1,12 @@
 package com.epam.tc.hw2.ex2;
 
 import com.epam.tc.hw2.AbstractBeforeAfter;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+
 import org.testng.annotations.Test;
 
 public class SelectionPageTest extends AbstractBeforeAfter {
@@ -20,7 +16,7 @@ public class SelectionPageTest extends AbstractBeforeAfter {
     static final String DIFFERENT_ELEMENTS_URL = "https://jdi-testing.github.io/jdi-light/different-elements.html";
 
     @Test
-    public void secondExTest() {
+    public void SelectionCheckTest() {
         webDriverWait = new WebDriverWait(webDriver, 10);
         webDriver.manage().window().maximize();
         webDriver.navigate().to(EPAM_URL);
