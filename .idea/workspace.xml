@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4befa31d-2fcf-4a27-a21e-2d841ffb0d95" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="homework_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-hw-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-hw-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-hw-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="maven-hw-1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.testng:testng:7.4.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="162" />
+    <option name="y" value="24" />
+    <option name="width" value="1545" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="1wGPKhgkE5nS9Q2dyXIiO2OnH68" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mavenhw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenhw1" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="mavenhw1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenhw1" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="mavenhw1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1628079758760" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw2.ex1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alehandro\IdeaProjects\mavenhw1\src\test" />
+      <recent name="C:\Users\Alehandro\IdeaProjects\mavenhw1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alehandro\IdeaProjects\mavenhw1\src\test\resources\testng\hw1" />
+      <recent name="C:\Users\Alehandro\IdeaProjects\mavenhw1" />
+      <recent name="C:\Users\Alehandro\IdeaProjects\mavenhw1\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Alehandro/IdeaProjects/mavenhw1/src/test/resources/testng/hw2/SuiteForHW2.xml">
+    <configuration name="C:/Users/Alehandro/IdeaProjects/mavenhw1/src/test/resources/testng/hw2/SuiteForHW2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Alexander_Kardanov" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng/hw2/SuiteForHW2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Alexander_Kardanov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tc.hw2.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.tc.hw2.ex1" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tc.hw2.ex1.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.firstExTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenhw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tc.hw2.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.tc.hw2.ex1" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tc.hw2.ex1.LoginPageTest" />
+      <option name="METHOD_NAME" value="firstExTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Alexander_Kardanov" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tc.hw2.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.tc.hw2.ex2" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tc.hw2.ex2.SelectionPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenhw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tc.hw2.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.tc.hw2.ex2" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tc.hw2.ex2.SelectionPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionPageTest.secondExTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenhw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.tc.hw2.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.tc.hw2.ex2" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.tc.hw2.ex2.SelectionPageTest" />
+      <option name="METHOD_NAME" value="secondExTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Alehandro/IdeaProjects/mavenhw1/src/test/resources/testng/hw2/SuiteForHW2.xml" />
+        <item itemvalue="TestNG.SelectionPageTest" />
+        <item itemvalue="TestNG.SelectionPageTest.secondExTest" />
+        <item itemvalue="TestNG.SelectionPageTest" />
+        <item itemvalue="TestNG.LoginPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4befa31d-2fcf-4a27-a21e-2d841ffb0d95" name="Default Changelist" comment="" />
+      <created>1627995848031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627995848031</updated>
+      <workItem from="1627995850900" duration="2948000" />
+      <workItem from="1627998953274" duration="5086000" />
+      <workItem from="1628079776425" duration="616000" />
+      <workItem from="1628080411415" duration="216000" />
+      <workItem from="1628080644508" duration="139000" />
+      <workItem from="1628081891359" duration="1813000" />
+      <workItem from="1628084613411" duration="4221000" />
+      <workItem from="1628088900758" duration="24286000" />
+      <workItem from="1628500938538" duration="8000" />
+      <workItem from="1628500960718" duration="806000" />
+      <workItem from="1628504232264" duration="72000" />
+      <workItem from="1628510449744" duration="627000" />
+      <workItem from="1628515749046" duration="1194000" />
+      <workItem from="1628517051192" duration="847000" />
+      <workItem from="1628520798484" duration="531000" />
+      <workItem from="1628521346726" duration="146000" />
+      <workItem from="1628521527365" duration="3103000" />
+      <workItem from="1628590092441" duration="5179000" />
+      <workItem from="1628602833441" duration="2998000" />
+      <workItem from="1628605865747" duration="287000" />
+      <workItem from="1628606276432" duration="7668000" />
+      <workItem from="1628619302997" duration="620000" />
+      <workItem from="1628619945248" duration="1341000" />
+      <workItem from="1628622955080" duration="12000" />
+      <workItem from="1628622978697" duration="4071000" />
+      <workItem from="1628687613592" duration="25989000" />
+      <workItem from="1628756850565" duration="4193000" />
+      <workItem from="1628762577107" duration="10840000" />
+      <workItem from="1628775911525" duration="4119000" />
+      <workItem from="1628880657151" duration="600000" />
+      <workItem from="1629113237956" duration="910000" />
+      <workItem from="1629114171877" duration="58000" />
+      <workItem from="1629114240827" duration="16000" />
+      <workItem from="1629147874669" duration="1329000" />
+      <workItem from="1629159875341" duration="258000" />
+      <workItem from="1629204964520" duration="5711000" />
+      <workItem from="1629230076456" duration="500000" />
+      <workItem from="1629283858565" duration="2254000" />
+      <workItem from="1629286314023" duration="403000" />
+      <workItem from="1629286733089" duration="161000" />
+      <workItem from="1629286906901" duration="36000" />
+      <workItem from="1629286954242" duration="8000" />
+      <workItem from="1629286975739" duration="1343000" />
+    </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1628605991783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628605991784</updated>
+    </task>
+    <task id="LOCAL-00002" summary="123">
+      <created>1628611745437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628611745437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="123">
+      <created>1628611824537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628611824537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <created>1628611909510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628611909510</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123">
+      <created>1628615617303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628615617303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <created>1628616296268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628616296268</updated>
+    </task>
+    <task id="LOCAL-00007" summary="11.08">
+      <created>1628706448694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628706448694</updated>
+    </task>
+    <task id="LOCAL-00008" summary="checkstyle fix">
+      <created>1629113352058</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629113352058</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test fix">
+      <created>1629149185188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629149185188</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix pom.xml">
+      <created>1629230133759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629230133759</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1 commit">
+      <created>1629286533975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629286533975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2 push">
+      <created>1629287025818</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629287025818</updated>
+    </task>
+    <task id="LOCAL-00013" summary="3 push">
+      <created>1629287151623</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629287151623</updated>
+    </task>
+    <task id="LOCAL-00014" summary="4 push">
+      <created>1629287367111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629287367111</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9005000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="162" y="24" width="1545" height="1000" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19326599" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24983165" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1946128" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <MESSAGE value="11.08" />
+    <MESSAGE value="checkstyle fix" />
+    <MESSAGE value="test fix" />
+    <MESSAGE value="fix pom.xml" />
+    <MESSAGE value="1 commit" />
+    <MESSAGE value="2 push" />
+    <MESSAGE value="3 push" />
+    <MESSAGE value="4 push" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 push" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
+    <entry file="jar://$PROJECT_DIR$/../../../../Program Files/Java/testng-7.4.0.jar!/testng.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mavenhw1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mavenhw1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.78</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
