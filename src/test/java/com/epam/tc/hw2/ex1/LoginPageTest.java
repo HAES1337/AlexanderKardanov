@@ -1,22 +1,18 @@
 package com.epam.tc.hw2.ex1;
 
-import com.epam.tc.hw2.AbstractBeforeAfter;
+import com.epam.tc.hw2.AbstractBaseTest;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class LoginPageTest extends AbstractBeforeAfter {
-    WebDriverWait webDriverWait;
+public class LoginPageTest extends AbstractBaseTest {
     SoftAssertions softly = new SoftAssertions();
     static final String EPAM_URL = "https://jdi-testing.github.io/jdi-light/index.html";
 
     @Test
-    public void LoginCheckTest() {
-        webDriverWait = new WebDriverWait(webDriver, 10);
-        webDriver.manage().window().maximize();
+    public void loginCheckTest() {
         webDriver.navigate().to(EPAM_URL);
         webDriverWait.until(ExpectedConditions.urlToBe(EPAM_URL));
         //Assert Browser title

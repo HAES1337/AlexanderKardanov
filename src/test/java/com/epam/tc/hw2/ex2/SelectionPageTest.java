@@ -1,46 +1,37 @@
 package com.epam.tc.hw2.ex2;
 
-import com.epam.tc.hw2.AbstractBeforeAfter;
+import com.epam.tc.hw2.AbstractBaseTest;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import org.testng.annotations.Test;
 
-public class SelectionPageTest extends AbstractBeforeAfter {
-    WebDriverWait webDriverWait;
+public class SelectionPageTest extends AbstractBaseTest {
     SoftAssertions softly = new SoftAssertions();
     static final String EPAM_URL = "https://jdi-testing.github.io/jdi-light/index.html";
     static final String DIFFERENT_ELEMENTS_URL = "https://jdi-testing.github.io/jdi-light/different-elements.html";
 
     @Test
-    public void SelectionCheckTest() {
-        webDriverWait = new WebDriverWait(webDriver, 10);
-        webDriver.manage().window().maximize();
+    public void selectionCheckTest() {
         webDriver.navigate().to(EPAM_URL);
         webDriverWait.until(ExpectedConditions.urlToBe(EPAM_URL));
         //Assert Browser title
-        WebElement title = webDriver.findElement(By.name("main-title"));
-        webDriverWait.until(ExpectedConditions.titleIs("Home Page"));
         softly.assertThat(webDriver.getTitle()).isEqualTo("Home Page");
         //Assert performing login
         WebElement loginForm = webDriver.findElement(By.id("user-icon"));
-        loginForm.click();
         webDriverWait.until(ExpectedConditions.elementToBeClickable(loginForm));
+        loginForm.click();
         WebElement username = webDriver.findElement(By.id("name"));
         username.sendKeys("Roman");
         WebElement password = webDriver.findElement(By.id("password"));
         password.sendKeys("Jdi1234");
         WebElement loginButton = webDriver.findElement(By.id("login-button"));
         loginButton.click();
-        webDriverWait.until(ExpectedConditions.urlToBe(EPAM_URL));
         softly.assertThat(webDriver.getCurrentUrl()).isEqualTo(EPAM_URL);
         //Assert User name in the left-top side of screen that user is loggined
         WebElement userNameLogged = webDriver.findElement(By.id("user-name"));
         userNameLogged.isDisplayed();
-        webDriverWait.until(ExpectedConditions.textToBePresentInElement(userNameLogged, "ROMAN IOVLEV"));
         softly.assertThat(userNameLogged.getText()).isEqualTo("ROMAN IOVLEV");
         //Open through the header menu Service -> Different Elements Page
         WebElement serviceOnTheHeader = webDriver.findElement(By.cssSelector(".dropdown-toggle"));
@@ -87,5 +78,4 @@ public class SelectionPageTest extends AbstractBeforeAfter {
             + "Colors: value changed to Yellow");
         softly.assertAll();
     }
-
 }
