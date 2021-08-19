@@ -6,8 +6,8 @@
         <include name="AddSubOperations"/>
       </run>
     </groups>
+    <packages>
+      <package name="com.epam.tc.hw1"/>
+    </packages>
   </test>
-  <packages>
-    <package name="tc"/>
-  </packages>
 </suite>
