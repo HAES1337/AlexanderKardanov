@@ -39,7 +39,8 @@ public class LoginPageTest extends AbstractBaseTest {
         webDriverWait.until(ExpectedConditions.textToBePresentInElement(userNameLogged, "ROMAN IOVLEV"));
         softly.assertThat(userNameLogged.getText()).isEqualTo("ROMAN IOVLEV");
         //Assert that there are 4 items on the header section are displayed and they have proper texts
-        List<WebElement> headerMenuWebElements = webDriver.findElements(By.xpath("//ul[contains(@class,'uui-navigation nav navbar-nav m-')]/li/a"));
+        List<WebElement> headerMenuWebElements =
+            webDriver.findElements(By.xpath("//ul[contains(@class,'uui-navigation nav navbar-nav m-')]/li/a"));
         headerMenuWebElements.get(0).isDisplayed();
         headerMenuWebElements.get(1).isDisplayed();
         headerMenuWebElements.get(2).isDisplayed();
@@ -81,7 +82,8 @@ public class LoginPageTest extends AbstractBaseTest {
         //Switch to original window back
         webDriver.switchTo().defaultContent();
         //Assert that there are 5 items in the Left Section are displayed and they have proper text
-        List<WebElement> leftSideMenuWebElements = webDriver.findElements(By.xpath("//*[@class='sidebar-menu left']/li[@index]"));
+        List<WebElement> leftSideMenuWebElements =
+            webDriver.findElements(By.xpath("//*[@class='sidebar-menu left']/li[@index]"));
         leftSideMenuWebElements.get(0).isDisplayed();
         leftSideMenuWebElements.get(1).isDisplayed();
         leftSideMenuWebElements.get(2).isDisplayed();
