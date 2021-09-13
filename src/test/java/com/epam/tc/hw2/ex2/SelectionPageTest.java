@@ -32,7 +32,7 @@ public class SelectionPageTest extends AbstractBaseTest {
         //Assert User name in the left-top side of screen that user is loggined
         WebElement userNameLogged = webDriver.findElement(By.id("user-name"));
         boolean userName = userNameLogged.isDisplayed();
-        System.out.println(userName);
+        softly.assertThat(userName).isEqualTo(true);
         softly.assertThat(userNameLogged.getText()).isEqualTo("ROMAN IOVLEV");
         //Open through the header menu Service -> Different Elements Page
         WebElement serviceOnTheHeader = webDriver.findElement(By.cssSelector(".dropdown-toggle"));
