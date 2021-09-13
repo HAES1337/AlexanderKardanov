@@ -31,7 +31,8 @@ public class SelectionPageTest extends AbstractBaseTest {
         softly.assertThat(webDriver.getCurrentUrl()).isEqualTo(EPAM_URL);
         //Assert User name in the left-top side of screen that user is loggined
         WebElement userNameLogged = webDriver.findElement(By.id("user-name"));
-        userNameLogged.isDisplayed();
+        boolean userName = userNameLogged.isDisplayed();
+        System.out.println(userName);
         softly.assertThat(userNameLogged.getText()).isEqualTo("ROMAN IOVLEV");
         //Open through the header menu Service -> Different Elements Page
         WebElement serviceOnTheHeader = webDriver.findElement(By.cssSelector(".dropdown-toggle"));
@@ -49,21 +50,16 @@ public class SelectionPageTest extends AbstractBaseTest {
         WebElement windBox =
             webDriver.findElement(By.xpath("//*[text()[contains(.,'Wind')]]"));
         windBox.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(windBox));
         WebElement selenBox =
             webDriver.findElement(By.xpath("//*[text()[contains(.,'Selen')]]"));
         selenBox.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(selenBox));
         //Select in dropdown
         WebElement colorsBox =
             webDriver.findElement(By.className("colors"));
         colorsBox.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(colorsBox));
         WebElement yellowColor = webDriver.findElement(By.xpath("//*[contains(text(),'Yellow')]"));
         yellowColor.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(yellowColor));
         selenBox.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(selenBox));
         WebElement waterCheckBox = webDriver.findElement(By.xpath("//li[contains(text(),'Water')]"));
         softly.assertThat(waterCheckBox.getText()).isEqualTo(waterCheckBox.getText().substring(0, 9)
             + "Water: condition changed to true");

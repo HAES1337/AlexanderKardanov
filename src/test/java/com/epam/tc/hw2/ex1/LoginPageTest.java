@@ -41,59 +41,84 @@ public class LoginPageTest extends AbstractBaseTest {
         //Assert that there are 4 items on the header section are displayed and they have proper texts
         List<WebElement> headerMenuWebElements =
             webDriver.findElements(By.xpath("//ul[contains(@class,'uui-navigation nav navbar-nav m-')]/li/a"));
-        headerMenuWebElements.get(0).isDisplayed();
-        headerMenuWebElements.get(1).isDisplayed();
-        headerMenuWebElements.get(2).isDisplayed();
-        headerMenuWebElements.get(3).isDisplayed();
-        softly.assertThat(headerMenuWebElements.get(0).getText()).isEqualTo("HOME");
-        softly.assertThat(headerMenuWebElements.get(1).getText()).isEqualTo("CONTACT FORM");
-        softly.assertThat(headerMenuWebElements.get(2).getText()).isEqualTo("SERVICE");
-        softly.assertThat(headerMenuWebElements.get(3).getText()).isEqualTo("METALS & COLORS");
+        boolean headerMenuWebElementsFirst = headerMenuWebElements.get(0).isDisplayed();
+        System.out.println(headerMenuWebElementsFirst);
+        boolean headerMenuWebElementsSecond = headerMenuWebElements.get(1).isDisplayed();
+        System.out.println(headerMenuWebElementsSecond);
+        boolean headerMenuWebElementsThird = headerMenuWebElements.get(2).isDisplayed();
+        System.out.println(headerMenuWebElementsThird);
+        boolean headerMenuWebElementsFourth = headerMenuWebElements.get(3).isDisplayed();
+        System.out.println(headerMenuWebElementsFourth);
+        List<String> expectedHeaderMenuWebElementsTexts = List.of("HOME",
+            "CONTACT FORM",
+            "SERVICE",
+            "METALS & COLORS");
+        List<String> allTextsHeaderMenu = new ArrayList<>();
+        for (WebElement webElement : headerMenuWebElements) {
+            allTextsHeaderMenu.add(webElement.getText());
+        }
+        softly.assertThat(allTextsHeaderMenu).containsExactlyInAnyOrderElementsOf(expectedHeaderMenuWebElementsTexts);
         //Assert that there are 4 images on the Index Page and they are displayed
         List<WebElement> iconsWebElements = webDriver.findElements(By.className("benefit-icon"));
-        iconsWebElements.get(0).isDisplayed();
-        iconsWebElements.get(1).isDisplayed();
-        iconsWebElements.get(2).isDisplayed();
-        iconsWebElements.get(3).isDisplayed();
+        boolean iconsWebElementsFirst = iconsWebElements.get(0).isDisplayed();
+        System.out.println(iconsWebElementsFirst);
+        boolean iconsWebElementsSecond = iconsWebElements.get(1).isDisplayed();
+        System.out.println(iconsWebElementsSecond);
+        boolean iconsWebElementsThird = iconsWebElements.get(2).isDisplayed();
+        System.out.println(iconsWebElementsThird);
+        boolean iconsWebElementsFourth = iconsWebElements.get(3).isDisplayed();
+        System.out.println(iconsWebElementsFourth);
         //Assert that there are 4 texts on the Index Page under icons and they have proper text
-        List<String> allTextsUnderIcon = new ArrayList<>();
+        List<String> expectedTextUnderIcons = List.of("To include good practices\n"
+                + "and ideas from successful\n"
+                + "EPAM project",
+            "To be flexible and\ncustomizable",
+            "Already have good base\n"
+                + "(about 20 internal and\n"
+                + "some external projects),\n"
+                + "wish to get more…",
+            "To be multiplatform");
         List<WebElement> textUnderWebElements =
             webDriver.findElements(By.className("benefit-txt"));
+        List<String> allTextsUnderIcon = new ArrayList<>();
         for (WebElement webElement : textUnderWebElements) {
             allTextsUnderIcon.add(webElement.getText());
         }
-        softly.assertThat(allTextsUnderIcon.get(0)).isEqualTo("To include good practices\n"
-            + "and ideas from successful\n"
-            + "EPAM project");
-        softly.assertThat(allTextsUnderIcon.get(1)).isEqualTo("To be flexible and\n"
-            + "customizable");
-        softly.assertThat(allTextsUnderIcon.get(2)).isEqualTo("To be multiplatform");
-        softly.assertThat(allTextsUnderIcon.get(3)).isEqualTo("Already have good base\n"
-            + "(about 20 internal and\n"
-            + "some external projects),\n"
-            + "wish to get more…");
+        softly.assertThat(allTextsUnderIcon).containsExactlyInAnyOrderElementsOf(expectedTextUnderIcons);
         //Assert that there is the iframe with “Frame Button” exist
         WebElement frameWithButton = webDriver.findElement(By.id("frame"));
-        frameWithButton.isDisplayed();
+        boolean frameWithButtonCheck = frameWithButton.isDisplayed();
+        System.out.println(frameWithButtonCheck);
         //Switch to the iframe and check that there is “Frame Button” in the iframe
         webDriver.switchTo().frame(frameWithButton);
         WebElement frameButton = webDriver.findElement(By.id("frame-button"));
-        frameButton.isDisplayed();
+        boolean frameButtonCheck = frameButton.isDisplayed();
+        System.out.println(frameButtonCheck);
         //Switch to original window back
         webDriver.switchTo().defaultContent();
         //Assert that there are 5 items in the Left Section are displayed and they have proper text
         List<WebElement> leftSideMenuWebElements =
             webDriver.findElements(By.xpath("//*[@class='sidebar-menu left']/li[@index]"));
-        leftSideMenuWebElements.get(0).isDisplayed();
-        leftSideMenuWebElements.get(1).isDisplayed();
-        leftSideMenuWebElements.get(2).isDisplayed();
-        leftSideMenuWebElements.get(3).isDisplayed();
-        leftSideMenuWebElements.get(4).isDisplayed();
-        softly.assertThat(leftSideMenuWebElements.get(0).getText()).isEqualTo("Home");
-        softly.assertThat(leftSideMenuWebElements.get(1).getText()).isEqualTo("Contact form");
-        softly.assertThat(leftSideMenuWebElements.get(2).getText()).isEqualTo("Service");
-        softly.assertThat(leftSideMenuWebElements.get(3).getText()).isEqualTo("Metals & Colors");
-        softly.assertThat(leftSideMenuWebElements.get(4).getText()).isEqualTo("Elements packs");
+        boolean leftSideMenuWebElementsFirst = leftSideMenuWebElements.get(0).isDisplayed();
+        System.out.println(leftSideMenuWebElementsFirst);
+        boolean leftSideMenuWebElementsSecond = leftSideMenuWebElements.get(1).isDisplayed();
+        System.out.println(leftSideMenuWebElementsSecond);
+        boolean leftSideMenuWebElementsThird = leftSideMenuWebElements.get(2).isDisplayed();
+        System.out.println(leftSideMenuWebElementsThird);
+        boolean leftSideMenuWebElementsFourth = leftSideMenuWebElements.get(3).isDisplayed();
+        System.out.println(leftSideMenuWebElementsFourth);
+        boolean leftSideMenuWebElementsFifth = leftSideMenuWebElements.get(4).isDisplayed();
+        System.out.println(leftSideMenuWebElementsFifth);
+        List<String> expectedLeftSideMenuTexts = List.of("Home",
+            "Contact form",
+            "Service",
+            "Metals & Colors",
+            "Elements packs");
+        List<String> allTextsLeftSideMenu = new ArrayList<>();
+        for (WebElement webElement : leftSideMenuWebElements) {
+            allTextsLeftSideMenu.add(webElement.getText());
+        }
+        softly.assertThat(allTextsLeftSideMenu).containsExactlyInAnyOrderElementsOf(expectedLeftSideMenuTexts);
         softly.assertAll();
     }
 }
